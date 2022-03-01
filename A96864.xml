@@ -1,0 +1,883 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divine poems being meditations upon several sermons, preached at Eckington in the county of Darbie / by Mr. S.G. And put into vers by William Wood of Eckington, Gent.</title>
+            <author>Wood, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1655</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 35 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A96864</idno>
+            <idno type="STC">Wing W3414</idno>
+            <idno type="STC">Thomason E844_16</idno>
+            <idno type="STC">ESTC R210371</idno>
+            <idno type="EEBO-CITATION">99869177</idno>
+            <idno type="PROQUEST">99869177</idno>
+            <idno type="VID">170605</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A96864)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 170605)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 248:E844[16])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Divine poems being meditations upon several sermons, preached at Eckington in the county of Darbie / by Mr. S.G. And put into vers by William Wood of Eckington, Gent.</title>
+                  <author>Wood, William.</author>
+                  <author>S. G.</author>
+               </titleStmt>
+               <extent>[4], 19, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Will. Du-Gard for the author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1655.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "June 26".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-03</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-05</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2011-05</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <p>
+               <pb facs="tcp:170605:1" rendition="simple:additions"/>
+DIVINE POEMS: Being MEDITATIONS Upon ſeveral Sermons, preached at <hi>Eckington</hi> in the County of <hi>Darbie</hi> by M<hi rend="sup">r</hi> 
+               <hi>S. G.</hi>
+            </p>
+            <p>And put into Verſ by VVILLIAM VVOOD of <hi>Eckington,</hi> Gent.</p>
+            <figure>
+               <q xml:lang="lat">IVSTVS VIVET FIDE</q>
+               <q xml:lang="lat">DEVS PROVIDEBIT.</q>
+               <p>
+                  <g ref="char:yhwh">יהוה</g>
+               </p>
+               <p>I.Y.</p>
+               <figDesc>printer's or publisher's device</figDesc>
+            </figure>
+            <p>
+               <hi>LONDON:</hi> Printed by WILL. Du-GARD for the Author. 1655.</p>
+         </div>
+         <div type="prologue">
+            <pb facs="tcp:170605:2"/>
+            <pb facs="tcp:170605:2"/>
+            <head>The Prologue.</head>
+            <lg>
+               <l>SOme trees grow green in hoary winter ſeaſon,</l>
+               <l>On this account, it's much I owe to reaſon.</l>
+               <l>Through age (alas) I almoſt want my ſight,</l>
+               <l>Yet mercie lend's me intellectual light;</l>
+               <l>Wherwith theſe following Fancies I did frame,</l>
+               <l>Onlie to gratifie my Maker's name.</l>
+               <l>Let theſe receive your gracious milde reflection,</l>
+               <l>Which repreſent's my heart's entire affection.</l>
+               <closer>
+                  <signed>VV. VVOOD.</signed>
+               </closer>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="poems">
+            <pb facs="tcp:170605:3"/>
+            <pb n="1" facs="tcp:170605:3"/>
+            <head>DIVINE POEMS; Conceived Upon ſeveral Sermons delivered at <hi>Eckington</hi> in the County of <hi>Darby</hi> by M<hi rend="sup">r</hi> 
+               <hi>S. G.</hi> upon theſe enſuing Texts of holy Scripture.</head>
+            <div type="poem">
+               <head>GEN. 45. 24. <hi>See that yee fall not out by the way.</hi>
+               </head>
+               <lg>
+                  <l>
+                     <seg rend="decorInit">A</seg>Fter afflicted <hi>Joſeph</hi> was enlarged,</l>
+                  <l>From pit, from priſon, and the ſtocks diſcharged,</l>
+                  <l>By the unfolding <hi>Pharaoh's</hi> double dream,</l>
+                  <l>Which to his wizards wonderful did ſeem.</l>
+                  <l>He was advanced to a Viceroy's ſtate,</l>
+                  <l>Maugre his Mr's lewd libid'nous hate:</l>
+                  <l>He ſate the ſecond, on the Regal Throne,</l>
+                  <l>Prime in Commiſſion, ſave the King alone:</l>
+                  <l>
+                     <pb n="2" facs="tcp:170605:4"/>
+And (under God) next <hi>Pharaoh,</hi> was head,</l>
+                  <l>Lord Providore of <hi>Egypt</hi> ſtore for bread.</l>
+                  <l>
+                     <hi>Joſeph's</hi> incenſed Brethren through his Dreams,</l>
+                  <l>By death Conſpir'd to execute their ſpleens:</l>
+                  <l>
+                     <hi>Reuben</hi> and <hi>Judah's</hi> pitie did reſtrain</l>
+                  <l>Their Brethrens rage, elſe <hi>Joſeph</hi> had been ſlain.</l>
+                  <l>Out of that plot, which was to ſpill his blood,</l>
+                  <l>To <hi>Jacob's</hi> ſeed there ſprung a world of good.</l>
+                  <l>
+                     <hi>Joſeph</hi> by providence, was ſold, and ſent,</l>
+                  <l>A fearful famine early to prevent.</l>
+                  <l>The general dearth, was ſo far overſpread,</l>
+                  <l>That aged <hi>Iſrael,</hi> for his houſe, want's bread.</l>
+                  <l>His ſons to <hi>Egypt,</hi> they muſt poſt with ſpeed,</l>
+                  <l>To buy ſome corn for to ſupplie their need:</l>
+                  <l>Who when they came to <hi>Joſeph,</hi> ſoon were known:</l>
+                  <l>Yet him they knew not, no nor him could own.</l>
+                  <l>After ſom parlie had betwixt them paſt,</l>
+                  <l>
+                     <hi>Joſeph</hi> (himſelf) deſcrie's thus at the laſt,</l>
+                  <l>Forthwith command's, all ſhould depart the room;</l>
+                  <l>Then near unto him bid's his brethren com;</l>
+                  <l>
+                     <hi>Joſeph</hi> I am, whom erſt yee did entrap,</l>
+                  <l>At which they ſtart, as at a thunder-clap:</l>
+                  <l>Their guilty Conſcience, did them ſo convict,</l>
+                  <l>They fear'd, they Judg, his Judgment would bee ſtrict:</l>
+                  <l>The ſtorm o'repaſt, the ſunſhine doth appear,</l>
+                  <l>The clouds do vaniſh, and the welkins clear:</l>
+                  <l>Inſtead of vengeance, mildly hee doth melt,</l>
+                  <l>Remit's, forgive's their by-paſt rage and guilt;</l>
+                  <l>Hee drown's his paſſion with a ſhow'r of tears,</l>
+                  <l>Hee weeps for joy, and doth expel their fears:</l>
+                  <l>When <hi>Joſeph</hi> was diſpatching them from thence,</l>
+                  <l>With love hee charms them to avoid offence,</l>
+                  <l>Wiſely forewarning, thus to them doth ſay,</l>
+                  <l>See yee agree, fall not out by the way.</l>
+                  <l>Hee had great cauſe to know their late condition,</l>
+                  <l>Their Emulation, envie, and ambition.</l>
+                  <l>
+                     <pb n="3" facs="tcp:170605:4"/>
+Hee knew and fear'd, that they would Emulate,</l>
+                  <l>His darling brother <hi>Benjamin</hi>'s eſtate:</l>
+                  <l>In any wiſe (quoth hee) obſerve I pray,</l>
+                  <l>Fall yee not out, nor brawl yee by the way:</l>
+                  <l>Yee that are ſhepherds, peaceful by your calling,</l>
+                  <l>As ſheep bee harmleſs, let their bee no brawling:</l>
+                  <l>Yee that are ſtrangers in your enemies Land</l>
+                  <l>Let them not hear you jarr, at any hand.</l>
+                  <l>Yee that are Brothers, Sons to one ſelf Father,</l>
+                  <l>See that yee keep the League of love the rather.</l>
+                  <l>Yee that do worſhip one, no other gods,</l>
+                  <l>Bee all as one, ſee that there be no odds.</l>
+                  <l>Yee Patriarchs, the hopes of numerous Nations,</l>
+                  <l>The roote, and branches of bleſt generations,</l>
+                  <l>Fall yee not out, in paſſing on the way</l>
+                  <l>Your Citie yee ſhall ſee another day.</l>
+                  <l>Yee have no Manſion here, nor certain reſt,</l>
+                  <l>Your City is above amongſt the bleſt.</l>
+                  <l>
+                     <hi>Joſeph</hi>'s ſage caution which he gave his Brothers</l>
+                  <l>May happly be appli'd to us and others,</l>
+                  <l>The neareſt, and the deareſt of relations</l>
+                  <l>Seldome obſerve religious obligations.</l>
+                  <l>Wee'reover weening, wedded to our will,</l>
+                  <l>Reaſon can have no room, but's outed ſtill;</l>
+                  <l>Wee are divided, rent, and torn aſunder,</l>
+                  <l>Become a by-word and Europa's wonder:</l>
+                  <l>Our inbred wrangles, thwarting diſpoſition,</l>
+                  <l>Makes ſober men to hold us in deriſion:</l>
+                  <l>The Saints communion, Lord, let us enjoy,</l>
+                  <l>Bung up their mouths, which <hi>Sions</hi> peace deſtroy.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Cant. 1. 4. <hi>Draw mee, wee will run after thee.</hi>
+               </head>
+               <lg>
+                  <l>THe Church her Chriſt doth fervently petition</l>
+                  <l>And promiſeth concurrent expedition;</l>
+                  <l>
+                     <pb n="4" facs="tcp:170605:5"/>
+But being helpleſs, impotent, and poor</l>
+                  <l>Aſſiſting grace ſhee humbly doth implore:</l>
+                  <l>As of our ſelves (ſhee grants) no ſtrength wee have</l>
+                  <l>To ask aright, to invocate, or crave:</l>
+                  <l>Therefore (dejected) thus her Lord doth move,</l>
+                  <l>Draw mee, O draw mee, with thy cords of love:</l>
+                  <l>Inſtruct mee Lord, then ſhall I be inſtructed,</l>
+                  <l>Lead, guide, and guard mee, I ſhall bee conducted;</l>
+                  <l>Turn mee, dear Lord, then turned ſhall I bee,</l>
+                  <l>From wicked waies, to run yet after thee:</l>
+                  <l>Convert me Lord, and then converted I</l>
+                  <l>Shall bee, thy mercie for to magnifie:</l>
+                  <l>Conſtrain me with thy love, my dove, my ſweet,</l>
+                  <l>Shake off ſins ſnares ſhackling my lingring feet;</l>
+                  <l>Delay not Lord, make haſt to mend my ſpeed,</l>
+                  <l>For thin's the power alone to do the deed;</l>
+                  <l>In thy books volume with thy Spirit's own quill,</l>
+                  <l>It's written, Lord, that I ſhould do thy will.</l>
+                  <l>This task, though hard to frailtie, I would do,</l>
+                  <l>If thou my will make willing thereunto;</l>
+                  <l>Bend and incline my heart, my feet and hands,</l>
+                  <l>To will, work, run, and do as thou command's,</l>
+                  <l>And what thy will commands, whilſt life lend's breath</l>
+                  <l>Mine muſt obey it, on the pain of death.</l>
+                  <l>O that thy Scepter, in my ſoul might ſway,</l>
+                  <l>Then would my will wait on thee in thy way.</l>
+                  <l>If thou my Lord, my Loadſtone, and my love,</l>
+                  <l>Daign thus to draw mee, others I will move,</l>
+                  <l>And wee will run moſt chearfullie thy race,</l>
+                  <l>No ſtop nor ſtay ſhall impedite our pace.</l>
+                  <l>Not as Competitors of like degree,</l>
+                  <l>But humble handmaids meeklie after thee:</l>
+                  <l>My fellow virgins (with mee) I will draw,</l>
+                  <l>To run the liſts that's boundred by the law:</l>
+                  <l>And leaſt through negligence wee ſhould offend,</l>
+                  <l>With burning lamps the Bridegroom wee'l attend;</l>
+                  <l>
+                     <pb n="5" facs="tcp:170605:5"/>
+And wee will emulate, with holie ſtrife,</l>
+                  <l>Who ſhall run foremoſt in a virtuous life.</l>
+                  <l>Let thy precedence be our imitation,</l>
+                  <l>Our rule for life and holie converſation.</l>
+                  <l>The race here run is not corporeal</l>
+                  <l>But heart's devotion, which is ſpiritual:</l>
+                  <l>From Earth to heav'n beſides thee wee have none</l>
+                  <l>Can be our Convoy ſaving thee alone:</l>
+                  <l>No ſlaviſh, ſervile ſervant, but the free,</l>
+                  <l>And filial can fitlie follow thee;</l>
+                  <l>No ſprightleſs drone that's dull in his deſires</l>
+                  <l>Can paſs heav'ns narrow way through thorns and briers.</l>
+                  <l>Ther's no reſpect of perſons, Lord, with thee,</l>
+                  <l>But hearts obeying beſt run after thee;</l>
+                  <l>Not after vain delights and worldly luſt,</l>
+                  <l>But after thee which art our ſtay and truſt;</l>
+                  <l>Not after blaſted honors, flitting wealth,</l>
+                  <l>But after thee which art our ſaving health:</l>
+                  <l>Not after terrene traſh, that's tranſitorie;</l>
+                  <l>But after thee, the Prize, a Crown of glorie.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Pſalm. 4. 4. <hi>Stand in aw, and ſin not; Commune with your own heart; and in your Chamber, and be ſtill.</hi>
+               </head>
+               <head type="sub">Theſe enſuing Poëms were conceived by the Authour without the help of a Sermon.</head>
+               <lg>
+                  <l>
+                     <hi>STand,</hi> in this place, ſerve's aptlie to this end</l>
+                  <l>For to affright us, leaſt wee God offend:</l>
+                  <l>
+                     <hi>Stand here</hi> impli'es a general Command;</l>
+                  <l>A mandate, ſigned by ſome Supreme hand:</l>
+                  <l>A warning-piece, whoſe thunder-like report</l>
+                  <l>The ſons of men from ſinning doth dehort.</l>
+                  <l>
+                     <pb n="6" facs="tcp:170605:6"/>
+In <hi>ſtanding</hi> ſtand wee tremblinglie <hi>in awe,</hi>
+                  </l>
+                  <l>Dreading through ſin to violate God's Law:</l>
+                  <l>If fiend, and fleſh, the world would all withdraw thee,</l>
+                  <l>Yet let theſe Cautions alwaies over-awe thee.</l>
+                  <l>If any by theſe caveats, grace ſhall gain,</l>
+                  <l>Let <hi>And</hi> be linked to this virtuous chain:</l>
+                  <l>
+                     <hi>Sin not,</hi> leaſt that, thou Crucifie again</l>
+                  <l>The Lord of life, which for thy ſins was ſlain:</l>
+                  <l>Sin not, but back with ſpeed in time retire,</l>
+                  <l>Elſe death's thy wage, thy guerdon, and thy hire.</l>
+                  <l>
+                     <hi>Commune,</hi> Confer, keep conſtant Conſultation</l>
+                  <l>
+                     <hi>With thine own heart,</hi> which knowe's thy converſation.</l>
+                  <l>Let an Enquiry be by Inquiſition</l>
+                  <l>Betwixt our hearts and us, of our condition.</l>
+                  <l>Endeavor this with all thy Induſtrie,</l>
+                  <l>With mindful heart perform it heartilie:</l>
+                  <l>And with thy heart keep reckoning daie by daie,</l>
+                  <l>And ſo thy debt more eaſie is to paie.</l>
+                  <l>We have this adage at our finger's ends,</l>
+                  <l>That oft accountants long continue friends.</l>
+                  <l>On other's faults, forbear, ſurceaſe to treat,</l>
+                  <l>Thy heart at home can work thee till thou ſweat:</l>
+                  <l>Admit no Inmates in thy heart to dwel,</l>
+                  <l>As vain deſires and luſts, which aye rebel.</l>
+                  <l>Both grace and vertue freely entertain,</l>
+                  <l>For by ſuch gueſts thou ſhalt be ſure to gain:</l>
+                  <l>Stand not on Stages for to bee admired,</l>
+                  <l>Such oſtenation is not here required:</l>
+                  <l>Thy <hi>Chamber</hi> ſighs ſent from an honeſt heart</l>
+                  <l>God will accept, and take them in good part:</l>
+                  <l>Our Cloſet thoughts conceiv'd in Secrecie</l>
+                  <l>Omniſcient God reward's them openlie.</l>
+                  <l>In loud high thunder, ſuch diſtracting noiſe</l>
+                  <l>God did not come, but in the low ſtill voice;</l>
+                  <l>When Solomon God's ſacred houſe did rear</l>
+                  <l>Then all was ſtill, no hammering in the ear.</l>
+                  <l>
+                     <pb n="7" facs="tcp:170605:6"/>
+                     <hi>Be Still,</hi> theſe words may plainly bear the ſence,</l>
+                  <l>Of Peace, Reſt, Quiet, ſuffering Patience,</l>
+                  <l>Purſuing good, eſchewing that is ill,</l>
+                  <l>In every vertue to be frequent ſtill.</l>
+                  <l>If this diſcourſe fitts not for explication</l>
+                  <l>To faſt from ſin <hi>(Stil)</hi> hitts th'interpretation.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Upon a Sermon deliverd a: <hi>Darby,</hi> before the Judges of Aſſize; March the 8th. 1652. upon the enſuing Text.</head>
+               <head>PSALM. 77. 20. <hi>Thou leddeſt thy people like a flock, by the hand of Moſes and Aaron.</hi>
+               </head>
+               <lg>
+                  <head>PROLOGUE.</head>
+                  <l>The Judge that judgeth all terrene eſtates,</l>
+                  <l>Send's an Ambaſſage to his Delegates:</l>
+                  <l>And by his Nuntio, here doth repreſent</l>
+                  <l>A limb of Iſraels antique government:</l>
+                  <l>Alluding to the flocks will not bee led,</l>
+                  <l>Nor by their Paſtors in freſh paſtures fed.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>DAvid</hi> dejected, tempted to deſpair,</l>
+                  <l>Rouzeth his faith, looke's back on God's great care;</l>
+                  <l>Recovering Comfort, in this place, recite's</l>
+                  <l>Gods dealings with his deareſt Iſraelites:</l>
+                  <l>How that hee led them by the faithful hand</l>
+                  <l>Of ſpecial Truſtees; through their enemies land:</l>
+                  <l>In leading them thou didſt not dog nor drive;</l>
+                  <l>By furious force, nor flock, nor fleece can thrive.</l>
+                  <l>
+                     <hi>Moſes</hi> and <hi>Aaron</hi> had God's ſubſtitution,</l>
+                  <l>To put his works and will in execution.</l>
+                  <l>
+                     <pb n="8" facs="tcp:170605:7"/>
+They were his Inſtruments, his mediate hand</l>
+                  <l>Went in and out before his choſen band.</l>
+                  <l>
+                     <hi>Moſes</hi> for Eminence hee held the chair,</l>
+                  <l>The charge of ſouls was left to <hi>Aaron</hi>'s care.</l>
+                  <l>
+                     <hi>Moſes</hi> was Magiſtrate and ſwaid the ſword,</l>
+                  <l>
+                     <hi>Aaron</hi> diſpenſer of the Sacred Word:</l>
+                  <l>Both were inſtall'd by God's immediate hand;</l>
+                  <l>Without theſe twain, nor Church nor State can ſtand:</l>
+                  <l>The Lord is founder, and chief Corner Stone</l>
+                  <l>Of governments; the power is his alone.</l>
+                  <l>The Miniſtrie cannot promulge the word,</l>
+                  <l>Unleſs ſupported by the ſecular ſword:</l>
+                  <l>
+                     <hi>Moſes</hi> and <hi>Aaron</hi> joyntly both together;</l>
+                  <l>All's off the hooks where there is want of either.</l>
+                  <l>
+                     <hi>Moſes</hi> (though meek) was Captain for Conduction,</l>
+                  <l>
+                     <hi>Aaron</hi> was ghoſtly Father for Inſtruction.</l>
+                  <l>The Charge in Chief it was for preſervation,</l>
+                  <l>As food, and raiment, and like reparation;</l>
+                  <l>Not only ſo, but for the flocks protection</l>
+                  <l>From ravenous wolves, rot, ſcab, and ſuch infection,</l>
+                  <l>Order and union; hence may be collected,</l>
+                  <l>(which in theſe dangerous dayes is much neglected)</l>
+                  <l>Theſe are the Maſter-props, of Church and State,</l>
+                  <l>Which cheriſhed ſweet peace doth propagate.</l>
+                  <l>Our text may tolerate this application</l>
+                  <l>Ther's many ſtraggling ſtraies within this Nation,</l>
+                  <l>Many blind guides, in theſe dogmatick daies,</l>
+                  <l>Lead's captive ſouls into pernicious waies.</l>
+                  <l>Many eſcapes which ſtart out of the fold,</l>
+                  <l>By word nor ſword that will not be controld;</l>
+                  <l>For want of Diſcipline and due correction</l>
+                  <l>People perverſe are peſtred with infection.</l>
+               </lg>
+               <lg>
+                  <head>EPILOGUE.</head>
+                  <l>My honored Lords, advanc'd to Moſes place,</l>
+                  <l>Mercie with judgement ſee yee interlace;</l>
+                  <l>
+                     <pb n="9" facs="tcp:170605:7"/>
+Spare the Subjected, debellate the ſtrong,</l>
+                  <l>Support your flocks from violence and wrong:</l>
+                  <l>Supplant ill weeds, that ſpread in every place,</l>
+                  <l>Which let's the growth of the good Hearb of Grace.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Upon a Sermon delivered upon the occaſion of the Rain deſcending in June and July. 1652.</head>
+               <head>PSAL. 147. 7, 8. <hi>Sing unto the Lord with thankſgiving: ſing praiſes upon the harp unto our God: Who covereth the heaven with clouds, who prepareth rain for the earth: who maketh graſs to grow upon the mountains.</hi>
+               </head>
+               <lg>
+                  <l>O Let the people of all ſorts and ranks,</l>
+                  <l>Unto our God ſing praiſ, with giving thanks:</l>
+                  <l>Sing to the Harp, with <hi>David</hi>'s ſpirit, and voice,</l>
+                  <l>And let the hearts of all the earth rejoyce.</l>
+                  <l>Sing and reſing unto the King of Kings,</l>
+                  <l>Which hath reviv'd all vegetable things.</l>
+                  <l>The God of mercies, of his great good will,</l>
+                  <l>On barren earth, make's Clouds drop fatneſs ſtill:</l>
+                  <l>With wonderment, wee well may ſing, and ſay.</l>
+                  <l>Our June and July's turned into May:</l>
+                  <l>Thoſe wonted withering months, men uſe to mow,</l>
+                  <l>Our graſs did then both freſhly ſpring and grow.</l>
+                  <l>Let's magnifie our God with publick praiſe,</l>
+                  <l>With Pſalms, and Hymns, and Hallelujahs.</l>
+                  <l>When Tellus was diſmantled of her green,</l>
+                  <l>And on our Sun-burnt ſoil ſmall graſs was ſeen,</l>
+                  <l>Then Earth's inhabitants agaſt did ſtand,</l>
+                  <l>Dreading a fearful famine through this land.</l>
+                  <l>Wee wretched worldlings, have a faithleſs Crew,</l>
+                  <l>Which do deſpair, unleſs all things enſue</l>
+                  <l>According to their gaping expectation,</l>
+                  <l>They whine, repine, with grudging murmuration.</l>
+                  <l>
+                     <pb n="10" facs="tcp:170605:8"/>
+Others there are depend on nature's will,</l>
+                  <l>Thinking the clouds do conſtantly diſtill</l>
+                  <l>Their Influence; ſans Providence Divine;</l>
+                  <l>This their belief, ſhall bee no Creed of mine,</l>
+                  <l>For wee by Sacred writ, do underſtand,</l>
+                  <l>The clouds, God's bottles, are within his hand,</l>
+                  <l>And when thoſe ſponges hee ſhall pleaſe to wring,</l>
+                  <l>Wee earthlings here, expect a fruitful ſpring.</l>
+                  <l>Behold, vain man, with eyes of purblind reaſon,</l>
+                  <l>God's open hand come's never out of ſeaſon:</l>
+                  <l>He ſend's his former and his later rains,</l>
+                  <l>Thy herds with graſs, thy life with bread ſuſtain's:</l>
+                  <l>When man with diffidence is moſt deſpairing,</l>
+                  <l>The cloudy heav'ns give's hope that rain's preparing;</l>
+                  <l>When wee conclude wee're ſtarv'd, undon, forlorn,</l>
+                  <l>God's fair Inheritance abound's with corn;</l>
+                  <l>Not in low vales alone, but Mountain tops,</l>
+                  <l>With laughter and great joy, wee reap our Crops.</l>
+                  <l>Bleſs mee; the bounty of God's liberal hand,</l>
+                  <l>With admiration hath enrich'd this land.</l>
+                  <l>If wine, oyl, rayment, food for life be ſcant;</l>
+                  <l>Content's a feaſt, can ſatiate all want.</l>
+                  <l>What ſhall wee render for our preſervation,</l>
+                  <l>Our breath, our being, life, and ſuſtentation?</l>
+                  <l>Let us with exultation, ſound his praiſe,</l>
+                  <l>That feed's us, clothe's us, lengthen's out our daies:</l>
+                  <l>Rejoyce, (I ſay) I ſay again rejoyce;</l>
+                  <l>Let us lift up our heads, hearts, hands, and voice.</l>
+                  <l>Lord let it bee our Conſtant reſolutions,</l>
+                  <l>To land thy love, for all thy diſtributions.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>JOHN 1. 8. <hi>If wee ſay that wee have no ſin, wee deceive our ſelves, and the truth is not in us.</hi>
+               </head>
+               <lg>
+                  <l>IF wee or yee, if all of us or any,</l>
+                  <l>'Mongſt the unſtable Crowd of Earth's ill many;</l>
+                  <l>
+                     <pb n="11" facs="tcp:170605:8"/>
+With arrogance dare ſay, <hi>wee have no ſin,</hi>
+                  </l>
+                  <l>Hee ſin's, and wretchedly offend's therein,</l>
+                  <l>For at the beſt they are but ſelf-deceivers,</l>
+                  <l>Bereſt of truth, deluded, falſe beleevers.</l>
+                  <l>The Saints illuſtrious, veſſels of perfection,</l>
+                  <l>They do not brag nor boaſt of ſelf-perfection;</l>
+                  <l>But are of meekly garb; amongſt theſe wee</l>
+                  <l>Stand not on points of ſelf-integritie,</l>
+                  <l>But grant, if that wee ſay, wee have no ſin,</l>
+                  <l>Our ſelves wee cheat, wee have no truth within.</l>
+                  <l>Our ſaints in ſhew, puft up with inſpiration,</l>
+                  <l>Theſe finleſs ſort diſclaim all Condonation:</l>
+                  <l>This Paradox is of ſo deep a die,</l>
+                  <l>The beſt condemn't, they all adjudg't a lie.</l>
+                  <l>A cloud of Penitents wee may recount,</l>
+                  <l>Whoſe excellencies our beſt acts ſurmount,</l>
+                  <l>And theſe by Invocation did not lin</l>
+                  <l>To ſupplicate God's mercie for their ſin,</l>
+                  <l>The beſt of ſaints their hands were oft unclean,</l>
+                  <l>Even as a menſtrous cloth, defil'd, obſcene.</l>
+                  <l>wee need not travel far, to ſtart the crew</l>
+                  <l>Of ſome that are as naught, as they are new,</l>
+                  <l>Who dare diſturb the Paſtor in's devotions,</l>
+                  <l>And in great Congregations cauſe commotions.</l>
+                  <l>Affront the Magiſtrate, even to his face,</l>
+                  <l>Thwart him with tearms of overmuch diſgrace,</l>
+                  <l>By works, and words, the better wee may ken,</l>
+                  <l>To ſegregate theſe Sects from ſober men;</l>
+                  <l>They're heady, giddy, conſtant as the winde,</l>
+                  <l>To every cavilling fallacie inclin'd,</l>
+                  <l>Blaſphemers, boaſters, proud, and inſolent,</l>
+                  <l>Deſpiſing order, Civil Government:</l>
+                  <l>By theſe and other ſpots they are well known,</l>
+                  <l>To be a tribe that truth will never owne.</l>
+                  <l>Theſe thus perverted lately did begin</l>
+                  <l>To hold this tenet, that they have no ſin.</l>
+                  <l>
+                     <pb n="12" facs="tcp:170605:9"/>
+The Saints in virtue, which did aye excel,</l>
+                  <l>This hainous hereſie condemn'd to hell;</l>
+                  <l>The General Councils with conſiderate ire</l>
+                  <l>Adjudg'd theſe crimes to be calcin'd with fire.</l>
+                  <l>Yee that ſo boaſt of ſpirit to be brim full,</l>
+                  <l>Which ſay yee have no ſin, your ſelves yee gull.</l>
+                  <l>Com all yee miſſed, erring, groſs miſtakers,</l>
+                  <l>Vain glorious Ranters, or cenſorious Quakers;</l>
+                  <l>Bring all your tricks, your toies and wreſted ſleights,</l>
+                  <l>Let's poiſe them by the Sanctuaries weights.</l>
+                  <l>Lord, if wee ſin againſt thee and offend,</l>
+                  <l>(For who ſin's not, that here his dayes doth ſpend?)</l>
+                  <l>Waſh me, O waſh nee throughly from my ſin,</l>
+                  <l>Blood, and pollution which I wallow'd in.</l>
+                  <l>If ſinfull I my ſelf ſhall juſtifie</l>
+                  <l>My mouth condemn's mee, giveth mee the lie:</l>
+                  <l>Hee that's noſt juſt hath failings, oft doth fall,</l>
+                  <l>On Earth hee live's not that ſin's not at all:</l>
+                  <l>Here may wee add theſe uſeful ſhort digreſſions,</l>
+                  <l>Two to the temple went to make Confeſſions;</l>
+                  <l>Pride and Humilitie goe both to pray,</l>
+                  <l>But differently, the clean contrarie way;</l>
+                  <l>The Phariſee, the Publican deſpiſed,</l>
+                  <l>His own good works and alms he highly prized:</l>
+                  <l>The publican's low poſture, and Contrition</l>
+                  <l>Obtained grace, when pride had no remiſſion.</l>
+                  <l>This is that ſin hul'd Lucifer from heaven,</l>
+                  <l>Which is moſt capital amongſt the ſeaven:</l>
+                  <l>This is the ſin of Serpentines device,</l>
+                  <l>Ejected <hi>Adam</hi> out of Paradiſe:</l>
+                  <l>Theſe Luciferian ſons and heirs of Pride</l>
+                  <l>Are not at height till Demi-Deifi'd.</l>
+                  <l>Now to cloſe up as wee did firſt begin,</l>
+                  <l>Wee with Saint <hi>Paul</hi> conclude all's under Sin.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="13" facs="tcp:170605:9"/>
+               <head>1 JOHN. 3. 9. <hi>Whoſoever is born of God doth not commit ſin: for his ſeed remaineth in him: and hee cannot ſin, becauſe he is born of God.</hi>
+               </head>
+               <lg>
+                  <l>BEtwixt this preſent and precedent Text</l>
+                  <l>Many perverted are, and much perplext:</l>
+                  <l>The firſt is, <hi>If wee ſay wee have no Sin,</hi>
+                  </l>
+                  <l>
+                     <hi>Wee do deceive our ſelvs, no truth's within;</hi>
+                  </l>
+                  <l>This, <hi>He that's born of God commit's no Sin,</hi>
+                  </l>
+                  <l>
+                     <hi>Hee cannot ſin, his ſeed remain's within:</hi>
+                  </l>
+                  <l>This is the ſubſtance of this twofold Text,</l>
+                  <l>Though ſome words want, others for feet's annext.</l>
+                  <l>Some raſh precipitants of late diſcover,</l>
+                  <l>And give it out, thoſe texts do thwart each other:</l>
+                  <l>Some overweeners ſleight all ſound direction,</l>
+                  <l>Oppoſe all truth which ſoothe's not their affection;</l>
+                  <l>Some rudely read, wanting all ſage ſobriety</l>
+                  <l>Conclude that twixt theſe Texts there's contrariety:</l>
+                  <l>To carnal eyes though theſe ſeem oppoſite,</l>
+                  <l>The ſpirit of truth doth friendly counite.</l>
+                  <l>None ever yet that liv'd in Earth's vaſt round,</l>
+                  <l>But <hi>Adam</hi>'s ſpot within his fleſh was found.</l>
+                  <l>Hee that by natural birth is born of God</l>
+                  <l>Commit's no ſin, ſo need's not dread his rod,</l>
+                  <l>No, there was none in all the Earth but one</l>
+                  <l>Which is our Saviour Jeſus Chriſt alone:</l>
+                  <l>Some few there are 'mongſt every Tribe and Nation</l>
+                  <l>That mercy ſealed by Regeneration:</l>
+                  <l>Of ſuch 'tis ſaid, that they commit no ſin,</l>
+                  <l>Becauſe they hate and loath to live therein:</l>
+                  <l>Others averſe to theſe that's neighbours nigh,</l>
+                  <l>As thoſe with ſolace, work iniquity,</l>
+                  <l>And theſe are they, whoſe faculty and frame,</l>
+                  <l>Do boaſt of ill, whoſe glory is their ſhame;</l>
+                  <l>Theſe are enamour'd, as <hi>Pigmation</hi> was</l>
+                  <l>One his ſtone ſtatue lively limned lafs;</l>
+                  <l>
+                     <pb n="14" facs="tcp:170605:10"/>
+Theſe make of ſin their trade and occupation,</l>
+                  <l>Their ſport, their paſtime, mirth and recreation,</l>
+                  <l>Their buſineſs traffique, and the ſole affairs,</l>
+                  <l>Live in't and on't, and do abandon cares:</l>
+                  <l>And in this ſenſe 'tis ſaid, hee cannot ſin,</l>
+                  <l>Unleſs conſent, conjoyn, comply therein:</l>
+                  <l>Many are miſſed, many go awry,</l>
+                  <l>The beſt do fail, but fall not finally:</l>
+                  <l>Hee cannot ſin a Sin to condemnation,</l>
+                  <l>That hath the earneſt of his own Salvation,</l>
+                  <l>Hee cannot ſin to death in any caſe,</l>
+                  <l>That is protected by preventing grace:</l>
+                  <l>When hope ſeem'd helpleſs, in the greateſt need,</l>
+                  <l>God hath reſerv'd in his a holy ſeed.</l>
+                  <l>On barren ſoils wee ſee few fruits are ſeen,</l>
+                  <l>Ingrafted grace in God's time will grow green;</l>
+                  <l>Though in the root no ſap ſeem's viſibly,</l>
+                  <l>Yet grace all ſeeming wants can well ſupply;</l>
+                  <l>The ſeed of grace at ſpring will fructifie,</l>
+                  <l>Though with Sin's ſtorms it periſh ſeeminglie.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>2 PET. 1. 9. <hi>Wee have alſo a more ſure word of Pro<g ref="char:EOLhyphen"/>phecie whereunto yee do well that yee take heed, as unto a light that ſhineth in a dark place untill the day dawn, and the day ſtor ariſe in your hearts.</hi>
+               </head>
+               <lg>
+                  <l>TH' Apoſtle for himſelf, and's fellow Jews,</l>
+                  <l>Send's to his Churches ſure and certain news;</l>
+                  <l>Debate's the evidence of revelation,</l>
+                  <l>Upon the caſe of Chriſt's transfiguration.</l>
+                  <l>Hee ſtronglie back's his Meſſage and aſſertion,</l>
+                  <l>Confirm's his babes begotten by Converſion;</l>
+                  <l>What hee and others heard, and ſaw with eye,</l>
+                  <l>Hold's not ſo ſure as word by propheſie;</l>
+                  <l>
+                     <pb n="15" facs="tcp:170605:10"/>
+                     <hi>Moſes</hi> and all the Prophet were of old,</l>
+                  <l>Their Laws are all in Court of heav'n inrol'd;</l>
+                  <l>Their verity hath vauquiſh'd all denials,</l>
+                  <l>Like pureſt gold ſuſtain'd the fiery trials;</l>
+                  <l>The ſcrupulous Jews do mutually conſent</l>
+                  <l>Unto the truths, in the old Teſtament;</l>
+                  <l>The Maxime which doth credit this the moſt,</l>
+                  <l>is the Dictator, was the Holie Ghoſt;</l>
+                  <l>The ſcope, and drift, of this aſſeveration</l>
+                  <l>doth ratifie Meſſia's Incarnation:</l>
+                  <l>Next he commends their diligential heed,</l>
+                  <l>Their practick part, in that they hear or read;</l>
+                  <l>And here forewarn's, that ſuperficially</l>
+                  <l>They do not read, but with a ſingle eye;</l>
+                  <l>Withall implies, that ſome are child-like bold,</l>
+                  <l>Call for new Leſſons ere they have learnt the old.</l>
+                  <l>Here with ſom ſorts of lights of various ſhine,</l>
+                  <l>Som dark and dim, and ſom more chryſtalline;</l>
+                  <l>Our Fathers ſaw but by a ſhadowed light,</l>
+                  <l>Wee have the ſun ſhine that perſpicuous light;</l>
+                  <l>They had the dawning, Wee the morning ſtar;</l>
+                  <l>Wee ſaw it home, but they remote and far.</l>
+                  <l>In this our day let us ſo act our parts,</l>
+                  <l>Untill Aurora riſe within our hearts;</l>
+                  <l>That after our few dayes ſo tranſitory,</l>
+                  <l>This ſtar may ſtear us to the ſun in glory.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>EZEK. 36. 26. <hi>And I will take away the ſtony heart out of your fleſh, and I well give you an heart of fleſh.</hi>
+               </head>
+               <lg>
+                  <l>WWen Iſrael had by graceleſs provocation</l>
+                  <l>Deſerv'd God's wrath and angrie indignation,</l>
+                  <l>By joyning with the heathen of thoſe times,</l>
+                  <l>In idols ſervice ſuch nefarious crimes,</l>
+                  <l>Mercie, in room of Judgement God did render,</l>
+                  <l>Becauſ his mercie alwaies is moſt tender:</l>
+                  <l>
+                     <pb n="16" facs="tcp:170605:11"/>
+Hee take's away, remove's their heart of ſtone,</l>
+                  <l>Inſtead thereof give's them a fleſhly one:</l>
+                  <l>How this hard heart is aptly Qualifi'd</l>
+                  <l>With weak expreſſions ſhall be ſpecifi'd.</l>
+                  <l>A ſtone is dark, and ſuteth with the night,</l>
+                  <l>Cannot diſcern, becauſe it lack's the light:</l>
+                  <l>A ſtone ponderous, downward doth deſcend</l>
+                  <l>Unto Earth's Center, that's it's proper end;</l>
+                  <l>A ſtone that's cold, may heated be by fire,</l>
+                  <l>But from it's heat, to coldneſs will retire;</l>
+                  <l>A ſtone hath many properties beſide,</l>
+                  <l>Sans means of grace cannot be mollifi'd.</l>
+                  <l>The heart of ſtone which now wee have in hand</l>
+                  <l>Will not obay, nor learn to underſtand;</l>
+                  <l>This ſtonie heart it hath been hammered oft,</l>
+                  <l>By preaching, teaching, yet will not be ſoft;</l>
+                  <l>Though maſſie hammers violently have knock't it,</l>
+                  <l>Nor force, nor fire can break, no nor decockt it.</l>
+                  <l>Wee will paſs by a while this heart of ſtone,</l>
+                  <l>And view the New, I mean the Fleſhſly One:</l>
+                  <l>The heart of fleſh is fearful to offend,</l>
+                  <l>It's humble, lowly, will both bow and bend;</l>
+                  <l>This is the wounded, weeping, bleeding heart,</l>
+                  <l>Prickt with compunction, ſuffereth grievous ſmart;</l>
+                  <l>This heart of fleſh aſſiduouſly relenteth,</l>
+                  <l>And therewithall unfeignedly repenteth;</l>
+                  <l>This heart of fleſh it is the ſacred Inne</l>
+                  <l>Which welcom's grace, and ſhut's the doors of Sin;</l>
+                  <l>This heart's a harbour, refuge for devotions,</l>
+                  <l>Which entertain's all pious ſpiritual motions;</l>
+                  <l>'Tis up heap'd happineſs to bee thus hearted,</l>
+                  <l>The joy's expreſſeleſs, for to bee Converted.</l>
+                  <l>What God can do, and what he doth, and how,</l>
+                  <l>It fitly follow's knowingly to know:</l>
+                  <l>What God can do, wee ſee in the Creation,</l>
+                  <l>With wonderment, exceeding admiration.</l>
+                  <l>
+                     <pb n="17" facs="tcp:170605:11"/>
+Hee was ſole Artifex and Architector,</l>
+                  <l>The mightie God, the powerful prime protector;</l>
+                  <l>In Heav'n and Earth, and in the depths, call'd Seas</l>
+                  <l>Hee will's, hee work's, hee can do what hee pleaſe,</l>
+                  <l>For in his hands hee hold's the hearts of Kings,</l>
+                  <l>Floods, hills, high mountains, and all earthly thin</l>
+                  <l>And what God doth by his eſpecial grace</l>
+                  <l>Doth fitly follow, in this ſecond place:</l>
+                  <l>Wee'le inſtance <hi>Eſau</hi>'s thirſt for <hi>Jacob</hi>'s blood,</l>
+                  <l>God turn's his heart, and pacifie's his mood,</l>
+                  <l>Heaven ſtill's his rage, <hi>Eſau</hi> grow's remiſs,</l>
+                  <l>They're reconcil'd, united with a kiſs,</l>
+                  <l>
+                     <hi>Jacob</hi> at every beck call's <hi>Eſau</hi> lord,</l>
+                  <l>
+                     <hi>Jacob</hi>'s ſmooth poſture ſheath's rough <hi>Eſau</hi>'s ſword.</l>
+                  <l>The thief in theft that all his life had ſpent,</l>
+                  <l>Chriſt grant's his ſuit with grace for to repent;</l>
+                  <l>This was the Wonderous work of God the Lord</l>
+                  <l>Such ſemblant mercie truth doth not record.</l>
+                  <l>Was not that marvel marvellous, paſſing ſtrange.</l>
+                  <l>
+                     <hi>Soul</hi>'s bloody heart ſo ſuddenly to change;</l>
+                  <l>A Perſecuter, to become a Preacher,</l>
+                  <l>The high-prieſts tyrant ſhould ſo ſoon turn teache</l>
+                  <l>In the laſt place, it ſerve's for ſound direction,</l>
+                  <l>To humble hearts from obſtinate affection:</l>
+                  <l>And for this Cure ſome Cordials are propoſed,</l>
+                  <l>That ſtony hearts may better bee difpoſed;</l>
+                  <l>The firſt is humble, pure, ſincere contrition,</l>
+                  <l>Which never want's a promiſs of remiſſion;</l>
+                  <l>The burning heart, inflam'd with fire of love,</l>
+                  <l>This antidote all hardneſs doth remove;</l>
+                  <l>The heart obdurate that reſiſteeh good,</l>
+                  <l>None can diſſolve it, but our Saviour's blood;</l>
+                  <l>The heart muſt ſuffer pruneing by exciſion,</l>
+                  <l>Before it's capable of ſafe condition;</l>
+                  <l>To hurle down hardeſt holds, the Sacred Word</l>
+                  <l>More powerful is than either fire or ſword.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="18" facs="tcp:170605:12"/>
+               <head>ECCLES. 12. 1. <hi>Remember now thy Creator in the dayes of thy youth.</hi>
+               </head>
+               <lg>
+                  <l>WHen <hi>Solomon</hi> was veſted in his Throne,</l>
+                  <l>Sole, ſupreme, Soveraign, Regent Lord alone,</l>
+                  <l>He craved wiſdome, did the ſame obtain,</l>
+                  <l>And therewithal an Indian ſtock of gain:</l>
+                  <l>Honor did homage and attend his Throne;</l>
+                  <l>Riches advanc'd him, more then any one;</l>
+                  <l>Hee gave his heart to gladneſs, and to folly,</l>
+                  <l>Madneſs did medicine his Melancholly;</l>
+                  <l>Lets looſ the rains, unto all ſenſual luſt,</l>
+                  <l>Pamper'd his pallat to delight his guſt;</l>
+                  <l>Daintie, delicious vians, fowles, and fiſh</l>
+                  <l>A liberal portion, in a lordly diſh;</l>
+                  <l>Playes, masks, and motions, did bewitch his ſight,</l>
+                  <l>with numerous Concubines he ſpent the night;</l>
+                  <l>Such Minſtrelſie as the inchanted ear</l>
+                  <l>Of roaring Reveliſts did never hear;</l>
+                  <l>Hee and ſhee Singers, with melodious notes</l>
+                  <l>Like <hi>Philomel,</hi> came warbling from their throats;</l>
+                  <l>Pſaltries, and Cimbals, ſtringed Inſtruments,</l>
+                  <l>Inchanting muſick for his ſolacements:</l>
+                  <l>In ſtately Structures he was Moſt luxurious,</l>
+                  <l>In Robes and Raiments gallant, extreme curious:</l>
+                  <l>Gardens like Eden, Fruits and Flowers for pleaſure,</l>
+                  <l>Vaſt minerals of Gold and Silver Treaſure:</l>
+                  <l>When with theſe fond delights his heart had done,</l>
+                  <l>Hee thus conclude's, All's vain beneath the Sun.</l>
+                  <l>Thus glutted with imaginary Joyes,</l>
+                  <l>His vexed ſpirit diſclaim'd theſe terrene toyes.</l>
+                  <l>Let this ſuffice by way of Introduction,</l>
+                  <l>This ſerve's for ſerious, ſolid, ſound Inſtruction;</l>
+                  <l>
+                     <hi>Remember</hi> (here) implies the Moral Law,</l>
+                  <l>The Decalogue to keep mankind in awe:</l>
+                  <l>
+                     <pb n="19" facs="tcp:170605:12"/>
+The Law as in a glaſs, doth clear reflect,</l>
+                  <l>What wee ſhould act, and what wee ſhould neglect.</l>
+                  <l>
+                     <hi>Remember thy Creator, in thy ſtrength,</hi>
+                  </l>
+                  <l>
+                     <hi>Whiles thou art plump, and young, and life hath length,</hi>
+                  </l>
+                  <l>Not in decrepid, feeble, doting daies,</l>
+                  <l>When faculties ſhall fail, to ſound his praiſ:</l>
+                  <l>Things of concernment, our immortal ſtate</l>
+                  <l>Muſt be remembred early, not to late:</l>
+                  <l>'Tis dangerous to defer until to morrow,</l>
+                  <l>One daies delay may cauſe eternall ſorrow.</l>
+                  <l>On pain of death do not procraſtinate</l>
+                  <l>Leaſt barr'd of entrance at the marriage gate.</l>
+                  <l>
+                     <hi>Remember</hi> now thy Span, thy pettie Space,</l>
+                  <l>Whiles thou haſt Sparing in the day of grace:</l>
+                  <l>It were ingratitude of high degree,</l>
+                  <l>For to forget the cauſe created thee:</l>
+                  <l>I mean the Mightie God, the grand Creator</l>
+                  <l>Of the fair frame, of all the worlds theater:</l>
+                  <l>Who in ſix daies did conſummate the ſame,</l>
+                  <l>That all his works might magnifie his name.</l>
+                  <l>Man was the maſter-piece of God's Creation,</l>
+                  <l>Made marvelouflie, ſurpaſſing admiration.</l>
+                  <l>God in's good time, in the creating ſeaſon,</l>
+                  <l>Endued man with underſtanding reaſon;</l>
+                  <l>Hee breath'd in him an ever-living Spirit,</l>
+                  <l>On terms of Service Heav'n for to inherit:</l>
+                  <l>But Man thus made, was loſt, whom mercie found,</l>
+                  <l>Only <hi>Chriſt</hi>'s blood can cure his mortal wound.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
